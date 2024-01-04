@@ -72,6 +72,47 @@ The ‘Courier Service System’ is a platform with which an individual can conv
 <br>
 <br>
 
+## System Design & Development
+<br>
 
 
+### Main Page
+<img width="749" alt="Main Page" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/fd3e0d3b-9b63-467b-a760-f6ffc75dc111"><br>
+<br>
+<br>
 
+### Login Page
+<img width="697" alt="Login" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/22171001-7d73-4816-af3f-0951f2779311"><br>
+<br>
+<br>
+
+### User Profile Management
+<img width="669" alt="User Profile Management" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/1f0eb8d0-836f-45f1-857d-652cc09230c4"><br>
+<br>
+<br>
+
+### Employee Management
+<img width="755" alt="Employee Management" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/d9494043-bec3-44a2-ac45-cdb2437ee095">
+<br>
+<br>
+<br>
+
+### Invoice
+<img width="635" alt="Invoice" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/4c085a17-3272-4442-8bae-20e5e2f8707b"><br>
+<br>
+<br>
+
+### Order Management
+<img width="666" alt="Order Management" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/e009e114-ec5d-4935-acc3-825f2fe01593"><br>
+<br>
+<br>
+
+### Report Details
+<img width="603" alt="Report Details" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/bb4eefd2-285c-4c72-b73a-a86f28f55613"><br>
+<br>
+<br>
+
+
+### Project Documentation
+
+### For PDF File, and Keynote/PowerPoint Presentation, Visit **[Sandesh Subedi](https://sandeshsubedi7.com.np/)**
