@@ -1,118 +1,197 @@
-# Courier-Service-System-in-Java
-The ‘Courier Service System’ is a platform with which an individual can convey his/her goods from one geographical location to other. The entire system is built, based on JAVA programming language, reinforced with Object Oriented Programming (OOPs) concepts. 
+<p align="center">
+  <sub>OPERATIONAL INTERFACES · JAVA DEVELOPMENT · OBJECT-ORIENTED PROGRAMMING</sub>
+</p>
 
-## Requirement Analysis
+<h1 align="center">Courier Service System</h1>
 
-### Use Case Diagram
-<img width="513" alt="Use Case Diagram" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/149d1204-1d21-4e25-9f0e-b596c8e0ac9b">
-<br>
-<br>
-<br>
+<p align="center">
+  <em>Exploring the everyday workflows behind a delivery operation.</em>
+</p>
 
-### Use Case Description
-<img width="519" alt="Use Case Description" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/5101ca99-70ed-4fec-934b-c2bc2a1bde19">
-<br>
-<br>
-<br>
+<p align="center">
+  Academic desktop application
+  <br>
+  Java / NetBeans / Ant
+</p>
 
-### Class Diagram
-<img width="563" alt="Class Diagram" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/ecb23a4a-6f44-4ebe-980c-8d82955687e4">
-<br>
-<br>
-<br>
+<p align="center">
+  <a href="#inside-the-application"><strong>Explore the interfaces ↓</strong></a>
+  &nbsp; · &nbsp;
+  <a href="#implementation">Browse the implementation</a>
+  &nbsp; · &nbsp;
+  <a href="https://www.sandesh.design/">My portfolio ↗</a>
+</p>
 
-### OOP Concept
-<img width="659" alt="OOP Concept" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/473f5cf9-723c-4e2b-8b5a-33fd711666d3">
-<br>
-<br>
 <br>
 
-### Object & Class Relation
-<img width="656" alt="Object and Classes" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/46e4c059-6f3f-43ec-b686-826a68375e19">
-<br>
-<br>
+## Looking beyond the delivery itself.
+
+A courier operation involves more than moving a package. Staff accounts, driver information, invoices, reports, and feedback all need interfaces of their own.
+
+This academic Java project explores those supporting workflows through a desktop application. The repository includes interface source files, NetBeans form definitions, project configuration, and documentation of object-oriented programming concepts.
+
+It provides another view of my technical work: the application structures behind operational interfaces.
+
 <br>
 
-## Concepts Implementation
+## Inside the application
+
+### 01 / Enter the system
+**Establish a starting point for the workflow.**
+
+Welcome, sign-in, and account-creation screens provide entry points into the application.
+
+![Courier Service System main interface](https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/fd3e0d3b-9b63-467b-a760-f6ffc75dc111)
+
+[Explore the main interface ↗](src/MainPage.java)
+&nbsp; · &nbsp;
+[Explore sign-in ↗](src/LogInPage.java)
+&nbsp; · &nbsp;
+[Explore account creation ↗](src/createAccount.java)
+
+---
+
+### 02 / Manage people
+**Organize the information supporting day-to-day work.**
+
+The project includes interfaces for profiles, employees, and drivers, alongside separate staff-related screens.
+
+![Courier Service System employee-management interface](https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/d9494043-bec3-44a2-ac45-cdb2437ee095)
+
+[Explore employee entry ↗](src/AddEmployee.java)
+&nbsp; · &nbsp;
+[Explore driver entry ↗](src/AddDriver.java)
+&nbsp; · &nbsp;
+[Explore profile editing ↗](src/ProfileEditing.java)
+
+---
+
+### 03 / Prepare invoices
+**Give transaction information a dedicated interface.**
+
+The invoice screen represents another operational task within the application, connecting interface controls with the underlying Java implementation.
+
+![Courier Service System invoice interface](https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/4c085a17-3272-4442-8bae-20e5e2f8707b)
+
+[Explore invoice code ↗](src/GenerateInvoice.java)
+
+---
+
+### 04 / Review reports and feedback
+**Make recorded information available for review.**
+
+Report and feedback screens extend the application beyond data entry to include reviewing information.
+
+![Courier Service System report-details interface](https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/bb4eefd2-285c-4c72-b73a-a86f28f55613)
+
+[Explore report generation ↗](src/GenerateReport.java)
+&nbsp; · &nbsp;
+[Explore report details ↗](src/ReportDetails.java)
+&nbsp; · &nbsp;
+[Explore feedback review ↗](src/Viewfeedback.java)
+
 <br>
 
-### Usage Example: Class & Object
-<img width="1070" alt="Class Objects" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/70e72d17-32a9-4241-a0f3-ffe998a4ca30">
-<br>
-<br>
+## Implementation
+
+The repository contains **Java source files**, accompanying **NetBeans form files**, and an **Ant build configuration**.
+
+The original project documentation includes examples of classes, constructors, inheritance, encapsulation, and polymorphism.
+
+| Area | Where to look |
+| :--- | :--- |
+| **Application interfaces** | [`src/`](src/) |
+| **Main page** | [`MainPage.java`](src/MainPage.java) |
+| **Management staff interface** | [`ManagingStaff.java`](src/ManagingStaff.java) |
+| **Delivery staff interface** | [`DeliveryStaff.java`](src/DeliveryStaff.java) |
+| **Invoice generation** | [`GenerateInvoice.java`](src/GenerateInvoice.java) |
+| **Report generation** | [`GenerateReport.java`](src/GenerateReport.java) |
+| **Ant build definition** | [`build.xml`](build.xml) |
+| **Project properties** | [`nbproject/project.properties`](nbproject/project.properties) |
+
 <br>
 
-### Usage Example: Constructors
-<img width="705" alt="Screenshot 2024-01-03 at 5 00 15 PM" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/6721e98e-2bda-4683-a7b1-1810a309db8f">
-<br>
-<br>
+## What to look for
+
+**How tasks are separated.**  
+Compare account, staff, invoice, and reporting interfaces to understand how the application organizes operational work.
+
+**How information moves through the interface.**  
+Review the Java source alongside the form definitions to examine the connection between controls and application behavior.
+
+**How programming concepts support the application.**  
+Explore the classes and their relationships in the context of concrete workflows rather than isolated programming exercises.
+
 <br>
 
-### Types of Inheritance
-<img width="772" alt="Screenshot 2024-01-03 at 5 00 34 PM" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/834ac8c4-4db1-48ce-ad2f-8197c186e9f6">
-<br>
-<br>
+<details>
+<summary><strong>Project diagrams & original documentation</strong></summary>
+
 <br>
 
-### Usage Example: Inheritance
-<img width="725" alt="Inheritance" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/d47c854a-6353-4d46-b6a1-b80f4cd27e2c">
-<br>
-<br>
+### Use-case overview
+
+![Use-case diagram for the Courier Service System](https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/149d1204-1d21-4e25-9f0e-b596c8e0ac9b)
+
+### Class structure
+
+![Class diagram for the Courier Service System](https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/ecb23a4a-6f44-4ebe-980c-8d82955687e4)
+
+These diagrams are retained from the original project documentation. Review them alongside the checked-in source when examining the implementation.
+
+</details>
+
 <br>
 
-### Usage Example: Encapsulation
-<img width="760" alt="Screenshot 2024-01-03 at 5 03 20 PM" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/c2c85132-b790-4c39-8257-d38acdb762f2">
-<br>
-<br>
+<details>
+<summary><strong>Development environment & setup notes</strong></summary>
+
 <br>
 
-### Usage Example: Polymorphism
-<img width="763" alt="Screenshot 2024-01-03 at 5 03 40 PM" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/997cb86b-8eb2-4d3f-be01-e0793b92e093">
-<br>
-<br>
+This is a historical NetBeans Java project with an Ant build configuration.
+
+Suggested inspection sequence:
+
+1. Review `nbproject/project.properties` for the expected Java configuration.
+2. Open the repository as an existing project in a compatible NetBeans environment.
+3. Review dependencies, resource references, and file-storage paths.
+4. Replace machine-specific paths with appropriate local development paths.
+5. Use synthetic data when testing account and staff workflows.
+6. Build the project and verify the relevant screens and interactions.
+
+The repository includes text-based data files and machine-specific path artifacts. Inspect these before attempting a run rather than assuming the original environment is portable.
+
+**Current verification status:** a clean build and end-to-end application run have not yet been verified for this documentation update.
+
+</details>
+
 <br>
 
-## System Design & Development
+<details>
+<summary><strong>Project scope & limitations</strong></summary>
+
 <br>
 
+This repository documents an academic application, not a production courier service.
 
-### Main Page
-<img width="749" alt="Main Page" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/fd3e0d3b-9b63-467b-a760-f6ffc75dc111"><br>
-<br>
-<br>
+The interface screenshots show the project's recorded appearance. They do not establish current functionality, secure authentication, or verified access controls.
 
-### Login Page
-<img width="697" alt="Login" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/22171001-7d73-4816-af3f-0951f2779311"><br>
-<br>
-<br>
+No commercial deployment, operational savings, or independently verified security or accessibility compliance is claimed here.
 
-### User Profile Management
-<img width="669" alt="User Profile Management" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/1f0eb8d0-836f-45f1-857d-652cc09230c4"><br>
-<br>
+</details>
+
 <br>
 
-### Employee Management
-<img width="755" alt="Employee Management" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/d9494043-bec3-44a2-ac45-cdb2437ee095">
-<br>
-<br>
-<br>
+---
 
-### Invoice
-<img width="635" alt="Invoice" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/4c085a17-3272-4442-8bae-20e5e2f8707b"><br>
-<br>
-<br>
+<p align="center">
+  <strong>Part of Sandesh Subedi’s design and development work.</strong>
+</p>
 
-### Order Management
-<img width="666" alt="Order Management" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/e009e114-ec5d-4935-acc3-825f2fe01593"><br>
-<br>
-<br>
-
-### Report Details
-<img width="603" alt="Report Details" src="https://github.com/SandeshKey/Courier-Service-System-in-Java/assets/98152515/bb4eefd2-285c-4c72-b73a-a86f28f55613"><br>
-<br>
-<br>
-
-
-### Project Documentation
-
-### For PDF File, and Keynote/PowerPoint Presentation, Visit **[Sandesh Subedi](https://sandeshsubedi7.com.np/)**
+<p align="center">
+  <a href="https://www.sandesh.design/">Portfolio</a>
+  &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/sandeshxd/">LinkedIn</a>
+  &nbsp; · &nbsp;
+  <a href="mailto:subedi.38@wright.edu">Get in touch</a>
+</p>
